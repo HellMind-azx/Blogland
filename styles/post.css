@@ -27,3 +27,9 @@
     margin-bottom: var(--space-32);
 
 }
+
+.post-container p {
+
+    white-space: pre-wrap;
+
+}
