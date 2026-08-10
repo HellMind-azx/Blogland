@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sekuya&family=Sora:wght@100..800&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sekuya&family=Sora:wght@100..800&family=Unbounded:wght@200..900&display=swap');
+
+:root {
+
+   /* ======================================================
+       COLORS
+    ====================================================== */
+
+   --paper: #F4F1EA;
+   --paper-dark: #0d1b2a;
+   --accent-color: #BC4B51;
+   --accent-color-light: #E8C2C4;
+   --accent-color-dark: #990d35;
+
+   --ink: #111111;
+
+   --gray-900: #262626;
+   --gray-700: #555555;
+   --gray-500: #8A8A8A;
+   --gray-300: #D6D6D6;
+   --gray-200: #E7E7E7;
+
+   --border: #111111;
+
+   --box-shadow: 3px 4px var(--paper-dark);
+   /* ======================================================
+       TYPOGRAPHY
+    ====================================================== */
+
+   --ff-heading: "Sekuya", serif;
+
+   --ff-body: "EB Garamond", serif;
+
+   /* ======================================================
+       FONT SIZES
+    ====================================================== */
+
+   --fs-12: .75rem;
+   --fs-14: .875rem;
+   --fs-16: 1rem;
+   --fs-18: 1.125rem;
+   --fs-20: 1.25rem;
+   --fs-24: 1.5rem;
+   --fs-32: 2rem;
+   --fs-40: 2.5rem;
+   --fs-56: 3.5rem;
+   --fs-72: 4.5rem;
+   --fs-96: 6rem;
+
+   /* ======================================================
+       FONT WEIGHT
+    ====================================================== */
+
+   --fw-regular: 400;
+   --fw-medium: 500;
+   --fw-semibold: 600;
+   --fw-bold: 700;
+   --fw-black: 900;
+
+   /* ======================================================
+       LINE HEIGHT
+    ====================================================== */
+
+   --lh-tight: 1;
+   --lh-heading: 1.08;
+   --lh-body: 1.75;
+
+   /* ======================================================
+       LETTER SPACING
+    ====================================================== */
+
+   --ls-tight: -.04em;
+   --ls-normal: 0;
+   --ls-wide: .08em;
+   --ls-wider: .16em;
+
+   /* ======================================================
+       SPACING
+    ====================================================== */
+
+   --space-4: .25rem;
+   --space-8: .5rem;
+   --space-12: .75rem;
+   --space-16: 1rem;
+   --space-24: 1.5rem;
+   --space-32: 2rem;
+   --space-48: 3rem;
+   --space-64: 4rem;
+   --space-80: 5rem;
+   --space-120: 7.5rem;
+
+   /* ======================================================
+       PAGE
+    ====================================================== */
+
+   --page-width: 1320px;
+
+   --page-padding: 32px;
+
+   --section-gap: 120px;
+
+   /* ======================================================
+       GRID
+    ====================================================== */
+
+   --columns: 12;
+
+   --gutter: 32px;
+
+   /* ======================================================
+       BORDERS
+    ====================================================== */
+
+   --border-thin: 1px solid var(--border);
+
+   --border-thick: 3px solid var(--border);
+
+      /* ======================================================
+       TRANSITION
+    ====================================================== */
+
+      --transition: .35s ease;
+
+}
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 992px) {
+
+   :root {
+
+      --page-padding: 24px;
+
+      --section-gap: 96px;
+
+      --gutter: 24px;
+
+      --fs-72: 4rem;
+
+      --fs-56: 3rem;
+
+      --fs-40: 2.25rem;
+
+   }
+
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width:768px) {
+
+   :root {
+
+      --page-padding: 20px;
+
+      --section-gap: 72px;
+
+      --gutter: 20px;
+
+      --fs-96: 4rem;
+
+      --fs-72: 3rem;
+
+      --fs-56: 2.5rem;
+
+      --fs-40: 2rem;
+
+      --fs-32: 1.75rem;
+
+   }
+
+}

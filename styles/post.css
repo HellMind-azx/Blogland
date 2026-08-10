@@ -1,0 +1,29 @@
+.post-container {
+
+    max-width: 60vw;
+
+    margin: var(--space-32) auto;
+
+}
+
+.post-container a {
+
+    
+
+}
+
+.post-container h1 {
+
+    text-align: center;
+
+    font-size: var(--fs-40);
+
+    font-weight: var(--fw-regular);
+
+}  
+
+.post-container h1, img {
+
+    margin-bottom: var(--space-32);
+
+}
