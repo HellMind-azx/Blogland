@@ -1,8 +1,8 @@
-@import './body.css';
-@import './page.css';
-@import './new_blog.css';
-@import './archive.css';
-@import './post.css';
-@import './variables.css';
-@import './typography.css';
-@import './style.css';
+@import 'body.css';
+@import 'page.css';
+@import 'new_blog.css';
+@import 'archive.css';
+@import 'post.css';
+@import 'variables.css';
+@import 'typography.css';
+@import 'style.css';
