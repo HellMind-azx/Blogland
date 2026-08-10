@@ -71,11 +71,14 @@
 
     border-radius: var(--space-4);
 
-
-
     min-height: 120px;
 
     field-sizing: content;
+
+    white-space: pre-wrap;
+
+    word-wrap: break-word;
+    
 }
 
 .button {
