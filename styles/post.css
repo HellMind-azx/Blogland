@@ -1,22 +1,30 @@
 .post-container {
-
-    max-width: 60vw;
-
-    margin: var(--space-32) auto;
-
+  /* при 375px viewport -> ~90vw (337px)
+     при 1440px viewport -> 60vw (864px) */
+  max-width: clamp(337px, 49.4vw + 152px, 864px);
+  margin: var(--space-32) auto;
 }
 
-.post-container a {
+@media (max-width: 400px) {
 
-    
+    .post-container a {
 
-}
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        margin-bottom: var(--space-32);
+    }
+
+}   
 
 .post-container h1 {
 
     text-align: center;
 
-    font-size: var(--fs-40);
+    font-size: clamp(2rem, 3vw, 2.5rem);
 
     font-weight: var(--fw-regular);
 
@@ -31,5 +39,7 @@
 .post-container p {
 
     white-space: pre-wrap;
+
+    font-size: var(--fs-20);
 
 }
