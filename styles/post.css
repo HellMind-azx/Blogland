@@ -1,8 +1,32 @@
 .post-container {
 
-    max-width: clamp(337px, 49.4vw + 152px, 864px);
+    max-width: 60vw;
 
     margin: var(--space-32) auto;
+
+}
+
+@media (width <= 1024px) {
+
+    .post-container {
+
+        max-width: 85vw;
+
+        padding-inline: var(--padding-page);
+
+    }
+
+}
+
+@media (width <= 1024px) {
+
+    .post-container {
+
+        max-width: 90vw;
+        
+        padding-inline: var(--padding-page);
+
+    }
 
 }
 
