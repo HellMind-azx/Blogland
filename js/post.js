@@ -7,7 +7,7 @@ function getPostIdFromUrl() {
 
 function renderPostPage() {
     const postContainer = document.querySelector('.post-container');
-    const posts = JSON.parse(localStorage.getItem('blogs') || []);
+    const posts = JSON.parse(localStorage.getItem('blogs')) || [];
     const postId = getPostIdFromUrl();
 
     const post = posts.find(item => item.id === postId);
