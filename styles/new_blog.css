@@ -10,20 +10,33 @@
 
     flex-direction: column;
 
-    max-width: 50vw;
+    max-width: clamp(288px, calc(0px + 50vw), 720px);
 
     margin: 0 auto;
 
-    padding-block: var(--page-padding);
+    padding: clamp(16px, calc(11.429px + 1.429vw), 32px);
 }
 
-@media (max-width: 1024px) {
+@media (width <= 1024px) {
+
+    .form-wrap {
+
+        max-width: 80vw;
+
+    }
+
+}
+
+@media (width <= 480px) {
+
     .form-wrap {
 
         max-width: 100vw;
 
+        padding-inline: var(--space-16);
 
     }
+
 }
 
 .form {
@@ -34,11 +47,13 @@
 
     gap: var(--space-16);
 
+    width: 100%;
+
     border: var(--border-thin);
 
     border-radius: var(--space-4);
 
-    padding: var(--space-32);
+    padding: clamp(16px, calc(11.429px + 1.429vw), 32px);
 }
 
 .link {
@@ -78,7 +93,7 @@
 
     border-radius: var(--space-4);
 
-    min-height: 120px;
+    min-height: 180px;
 
     field-sizing: content;
 
@@ -99,6 +114,8 @@
     border-radius: var(--space-4);
 
     font-family: var(--ff-heading);
+
+    font-size: clamp(1.00rem, calc(0.909rem + 0.455vw), 1.25rem);
 
     box-shadow: var(--box-shadow);
 

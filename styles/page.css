@@ -4,11 +4,7 @@
 
 .header {
 
-    padding-top: 2rem;
-
-    border-top: 4px solid var(--ink);
-
-    border-bottom: 2px solid var(--ink);
+    padding-top: var(--space-32);
 
 }
 
@@ -38,9 +34,15 @@
 
     display: grid;
 
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
-    border-top: var(--border-thin);
+}
+
+#nav {
+
+    margin-top: var(--space-48);
+
+    border-block: var(--border-thin);
 
 }
 

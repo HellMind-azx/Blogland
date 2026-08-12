@@ -3,7 +3,7 @@
 
     justify-content: center;
 
-    border-bottom: var(--border-thick);
+    border-bottom: var(--border-thin);
 }
 
 .archive-navbar a {
@@ -44,7 +44,7 @@
 
     display: grid;
 
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
     gap: var(--space-12);
 
