@@ -1,8 +1,15 @@
 .post-container {
-  /* при 375px viewport -> ~90vw (337px)
-     при 1440px viewport -> 60vw (864px) */
-  max-width: clamp(337px, 49.4vw + 152px, 864px);
-  margin: var(--space-32) auto;
+
+    max-width: clamp(337px, 49.4vw + 152px, 864px);
+
+    margin: var(--space-32) auto;
+
+}
+
+.post-container a {
+
+    margin-bottom: var(--space-32);
+
 }
 
 @media (max-width: 400px) {
@@ -15,24 +22,24 @@
 
         align-items: center;
 
-        margin-bottom: var(--space-32);
     }
 
-}   
+}
 
 .post-container h1 {
 
     text-align: center;
 
-    font-size: clamp(2rem, 3vw, 2.5rem);
+    font-size: clamp(1.80rem, calc(1.636rem + 0.818vw), 2.25rem);
 
-    font-weight: var(--fw-regular);
+    font-weight: 100;
 
-}  
+}
 
-.post-container h1, img {
+.post-container h1,
+img {
 
-    margin-bottom: var(--space-32);
+    margin-bottom: var(--space-48);
 
 }
 
